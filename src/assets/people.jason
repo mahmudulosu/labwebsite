@@ -1,0 +1,20 @@
+{
+  "labName": "Your Lab Name",
+  "pi": {
+    "name": "Prof. Your Name",
+    "title": "Principal Investigator",
+    "email": "prof@university.edu",
+    "photo": "/images/pi.jpg",
+    "interests": ["Topic A", "Topic B", "Topic C"]
+  },
+  "students": [
+    {
+      "name": "Student One",
+      "role": "PhD Student",
+      "email": "s1@university.edu",
+      "photo": "/images/student1.jpg",
+      "interests": ["X", "Y"]
+    }
+  ],
+  "alumni": []
+}

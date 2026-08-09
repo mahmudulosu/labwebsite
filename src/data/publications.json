@@ -1,0 +1,626 @@
+[
+  {
+    "year": 2021,
+    "title": "A Machine Learning Method for the Forensics Attribution of Separated Plutonium",
+    "authors": "O’Neal, P., Chirayath, S., & Cheng, Q.",
+    "venue": "Nuclear Science and Engineering, accepted, 12/2021.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2021,
+    "title": "Mixture Model Framework for Traumatic Brain Injury Prognosis Using Heterogeneous Clinical and Outcome Data",
+    "authors": "AD Kaplan, Q Cheng, KAM al.",
+    "venue": "IEEE Journal of Biomedical and Health Informatics , 2021.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2021,
+    "title": "Pulse pileup rejection methods using a two- component Gaussian Mixture Model for fast neutron detection with pulse shape discriminating scintillator",
+    "authors": "Andrew Glenn, Qi Cheng, Alan D. Kaplan, Ron Wurtz",
+    "venue": "Nuclear Instruments and Methods in Physics Research Section A Accelerators, 2, 2021.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "title": "Emotion Discrimination through Electrode Network Connectivity Pattern Recognition",
+    "authors": "Q Cheng, AD Kaplan, P Karande, M Bijanzadeh, H Dawes, E Chang",
+    "venue": "53rd Asilomar Conference on Signals, Systems, and Computers, 2139-2143, 2019.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "title": "Localization of Emotional Affect in Electrocorticography Using a Model Based Discrimination Measure",
+    "authors": "AD Kaplan, Q Cheng, P Karande, E Tran, M Bijanzadeh, H Dawes,",
+    "venue": "53rd Asilomar Conference on Signals, Systems, and Computers, 1709-1713, 2019.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "title": "Indoor Multiple Sound Source Localization via Multi- Dimensional Assignment Data Association",
+    "authors": "Dang, X., Cheng, Q., & Zhu, H.",
+    "venue": "IEEE/ACM Transactions on Audio Speech and Language Processing , 27(12), 1944-1956. doi:10.1109/TASLP.2019.2935837",
+    "doi": "10.1109/TASLP.2019.2935837",
+    "link": "https://doi.org/10.1109/TASLP.2019.2935837"
+  },
+  {
+    "year": 2019,
+    "title": "An Approximation Solution of the Swing Equation Using Particle Swarm Optimization",
+    "authors": "Zaidi, A., & Cheng, Q.",
+    "venue": "In 2018 IEEE Conference on Technologies for Sustainability, SusTech 2018 . doi:10.1109/SusTech.2018.8671355",
+    "doi": "10.1109/SusTech.2018.8671355",
+    "link": "https://doi.org/10.1109/SusTech.2018.8671355"
+  },
+  {
+    "year": 2018,
+    "title": "Multiple Sound Source Localization Based on a Multi-Dimensional Assignment Model",
+    "authors": "Dang, X., Zhu, H., & Cheng, Q.",
+    "venue": "In 2018 21st International Conference on Information Fusion, FUSION 2018 (pp. 1732 -1737). doi:10.23919/ICIF.2018.8455616",
+    "doi": "10.23919/ICIF.2018.8455616",
+    "link": "https://doi.org/10.23919/ICIF.2018.8455616"
+  },
+  {
+    "year": 2018,
+    "title": "Cardiorespiratory Model -Based Data-Driven Approach for Sleep Apnea Detection",
+    "authors": "Gutta, S., Cheng, Q., Nguyen, H. D., & Benjamin, B. A.",
+    "venue": "IEEE Journal of Biomedical and Health Informatics , 22(4), 1036- 1045. doi:10.1109/JBHI.2017.2740120",
+    "doi": "10.1109/JBHI.2017.2740120",
+    "link": "https://doi.org/10.1109/JBHI.2017.2740120"
+  },
+  {
+    "year": 2017,
+    "title": "Joint transmit power and sensing duration optimization for MIMO cognitive radios",
+    "authors": "Anand, A., Ray, P., & Cheng, Q.",
+    "venue": "Physical Communication, 25, 167-172. doi:10.1016/j.phycom.2017.10.004",
+    "doi": "10.1016/j.phycom.2017.10.004",
+    "link": "https://doi.org/10.1016/j.phycom.2017.10.004"
+  },
+  {
+    "year": 2017,
+    "title": "Acoustic source tracking using multiple weighted peaks of the localization function",
+    "authors": "Yang, G., Cheng, Q., Guo, Y., & Zhu, H.",
+    "venue": "In Chinese Control Conference, CCC (pp. 5312-5317). doi:10.23919/ChiCC.2017.8028196",
+    "doi": "10.23919/ChiCC.2017.8028196",
+    "link": "https://doi.org/10.23919/ChiCC.2017.8028196"
+  },
+  {
+    "year": 2017,
+    "title": "Sound source localization through optimal peak association in reverberant environments",
+    "authors": "Zhu, H., Li, Z., & Cheng, Q.",
+    "venue": "In 20th International Conference on Information Fusion, Fusion 2017 - Proceedings. doi:10.23919/ICIF.2017.8009685",
+    "doi": "10.23919/ICIF.2017.8009685",
+    "link": "https://doi.org/10.23919/ICIF.2017.8009685"
+  },
+  {
+    "year": 2017,
+    "title": "Indoor multi-sound source localization based on nonparametric Bayesian clustering",
+    "authors": "Guo, Y., Zhu, H., & Cheng, Q.",
+    "venue": "In ICASSP, IEEE International Conference on Acoustics , Speech and Signal Processing - Proceedings (pp. 6135-6139). doi:10.1109/ICASSP.2017.7953335",
+    "doi": "10.1109/ICASSP.2017.7953335",
+    "link": "https://doi.org/10.1109/ICASSP.2017.7953335"
+  },
+  {
+    "year": 2017,
+    "title": "Attack graph based network risk assessment: Exact inference vs region-based approximation",
+    "authors": "Cheng, Q., Kwiat, K., Kamhoua, C. A., & Njilla, L.",
+    "venue": "In Proceedings of IEEE International Symposium on High Assurance Systems Engineering (pp. 84-87). doi:10.1109/HASE.2017.8",
+    "doi": "10.1109/HASE.2017.8",
+    "link": "https://doi.org/10.1109/HASE.2017.8"
+  },
+  {
+    "year": 2017,
+    "title": "Online and offline load frequency controller design",
+    "authors": "Zaidi, A., & Cheng, Q.",
+    "venue": "In 2017 IEEE Texas Power and Energy Conference, TPEC 2017. doi:10.1109/TPEC.2017.7868283",
+    "doi": "10.1109/TPEC.2017.7868283",
+    "link": "https://doi.org/10.1109/TPEC.2017.7868283"
+  },
+  {
+    "year": 2017,
+    "title": "Modeling of oxygen saturation and respiration for sleep apnea detection",
+    "authors": "Gutta, S., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1636 -1640). doi:10.1109/ACSSC.2016.7869657",
+    "doi": "10.1109/ACSSC.2016.7869657",
+    "link": "https://doi.org/10.1109/ACSSC.2016.7869657"
+  },
+  {
+    "year": 2016,
+    "title": "Model -based data-driven approach for sleep apnea detection",
+    "authors": "Gutta, S., Cheng, Q., Nguyen, H. D., & Benjamin, B. A.",
+    "venue": "In FUSION 2016 - 19th International Conference on Information Fusion, Proceedings (pp. 828-835).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2016,
+    "title": "Distributed Detection and Decision Fusion with Applications to Wireless Sensor Networks",
+    "authors": "Cheng, Q., Niu, R., Sundaresan, A., & Varshney, P. K.",
+    "venue": "In Integrated Tracking, Classification, and Sensor Management: Theory and Applications (pp. 619-660). doi:10.1002/9781118450550.ch16",
+    "doi": "10.1002/9781118450550.ch16",
+    "link": "https://doi.org/10.1002/9781118450550.ch16"
+  },
+  {
+    "year": 2016,
+    "title": "Joint Feature Extraction and Classifier Design for ECG -Based Biometric Recognition",
+    "authors": "Gutta, S., & Cheng, Q.",
+    "venue": "IEEE Journal of Biomedical and Health Informatics, 20(2), 460-468. doi:10.1109/JBHI.2015.2402199",
+    "doi": "10.1109/JBHI.2015.2402199",
+    "link": "https://doi.org/10.1109/JBHI.2015.2402199"
+  },
+  {
+    "year": 2016,
+    "title": "Design Diversity for Mitigating Monoculture Induced Threats",
+    "authors": "Cheng, Q., Kwiat, K., & Kamhoua, C. A.",
+    "venue": "In Proceedings of IEEE International Symposium on High Assurance Sy stems Engineering Vol. 2016-March (pp. 17-18). doi:10.1109/HASE.2016.37",
+    "doi": "10.1109/HASE.2016.37",
+    "link": "https://doi.org/10.1109/HASE.2016.37"
+  },
+  {
+    "year": 2016,
+    "title": "Efficient wideband spectrum sensing using random projection",
+    "authors": "Majee, S., Ray, P., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers Vol. 2016-February (pp. 141 -145). doi:10.1109/ACSSC.2015.7421100",
+    "doi": "10.1109/ACSSC.2015.7421100",
+    "link": "https://doi.org/10.1109/ACSSC.2015.7421100"
+  },
+  {
+    "year": 2016,
+    "title": "Control mechanism modeling of human cardiovascularrespiratory system",
+    "authors": "Gutta, S., Cheng, Q., & Benjamin, B. A.",
+    "venue": "In 2015 IEEE Global Conference on Signal and Information Processing, GlobalSIP 2015 (pp. 918-922). doi:10.1109/GlobalSIP.2015.7418331",
+    "doi": "10.1109/GlobalSIP.2015.7418331",
+    "link": "https://doi.org/10.1109/GlobalSIP.2015.7418331"
+  },
+  {
+    "year": 2015,
+    "title": "Robot semantic mapping through human activity recognition: A wearable sensing and computing approach",
+    "authors": "Sheng, W., Du, J., Cheng, Q., Li, G., Zhu, C., Liu, M., & Xu, G.",
+    "venue": "Robotics and Autonomous S ystems, 68, 47-58. doi:10.1016/j.robot.2015.02.002",
+    "doi": "10.1016/j.robot.2015.02.002",
+    "link": "https://doi.org/10.1016/j.robot.2015.02.002"
+  },
+  {
+    "year": 2015,
+    "title": "Indoor sound source localization and number estimation using infinite Gaussian mixture models",
+    "authors": "Sun, L., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers Vol. 2015 -April (pp. 1189-1193). doi:10.1109/ACSSC.2014.7094646",
+    "doi": "10.1109/ACSSC.2014.7094646",
+    "link": "https://doi.org/10.1109/ACSSC.2014.7094646"
+  },
+  {
+    "year": 2015,
+    "title": "A unified framework for robust cooperative spectrum sensing",
+    "authors": "Cheng, Q., & Chan-Tin, E.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers Vol. 2015-April (pp. 1589-1593). doi:10.1109/ACSSC.2014.7094733",
+    "doi": "10.1109/ACSSC.2014.7094733",
+    "link": "https://doi.org/10.1109/ACSSC.2014.7094733"
+  },
+  {
+    "year": 2015,
+    "title": "Indoor multiple sound source tracking using refined TDOA measurements",
+    "authors": "Sun, L., & Cheng, Q.",
+    "venue": "In 2015 49th Annual Conference on Information Sciences and Systems, CISS 2015. doi:10.1109/CISS.2015.7086868",
+    "doi": "10.1109/CISS.2015.7086868",
+    "link": "https://doi.org/10.1109/CISS.2015.7086868"
+  },
+  {
+    "year": 2014,
+    "title": "Adaptive bandwidth allocation for dynamic event region detection in wireless sensor networks",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "IEEE Transactions on Wireless Communications , 13(9), 5107-5119. doi:10.1109/TWC.2014.2335206",
+    "doi": "10.1109/TWC.2014.2335206",
+    "link": "https://doi.org/10.1109/TWC.2014.2335206"
+  },
+  {
+    "year": 2014,
+    "title": "Online dynamic event region detection using distributed sensor networks",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems, 50(1), 393-405. doi:10.1109/TAES.2013.120308",
+    "doi": "10.1109/TAES.2013.120308",
+    "link": "https://doi.org/10.1109/TAES.2013.120308"
+  },
+  {
+    "year": 2014,
+    "title": "Climatic parameter TMI in subgrade soils",
+    "authors": "Yue, E., Chen, L., Bulut, R., & Cheng, Q.",
+    "venue": "In Climatic Effects on Pavement and Geotechnical Infrastructure - Proceedings of the International Symposium of Climatic Effects on Pavement and Geotechnical Infrastructure 2013 (pp. 109 -116). doi:10.1061/9780784413326.011",
+    "doi": "10.1061/9780784413326.011",
+    "link": "https://doi.org/10.1061/9780784413326.011"
+  },
+  {
+    "year": 2014,
+    "title": "Proactive 3D robot mapping in environments with sparse features",
+    "authors": "Du, J., Sheng, W., Cheng, Q., & Liu, M.",
+    "venue": "In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) Vol. 8887 (pp. 773-782). doi:10.1007/978-3-319-14249-4_74",
+    "doi": "10.1007/978-3-319-14249-4_74",
+    "link": "https://doi.org/10.1007/978-3-319-14249-4_74"
+  },
+  {
+    "year": 2014,
+    "title": "Feature selection and decision fusion for distributed classification",
+    "authors": "Nguyen, H. D., & Cheng, Q.",
+    "venue": "International Journal of Computers and their Applications, 21(2), 121-132.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2014,
+    "title": "Efficient routing and scheduling in Ad- Hoc cognitive radio networks",
+    "authors": "Cheng, Q., & Tin, E. C.",
+    "venue": "In Proceedings - 2014 National Wireless Research Collaboration Symposium: Rapidly Transitioning Wireless Spectrum-Using Research to Deployable Innovations, NWRCS 2014 (pp. 37-42). doi:10.1109/NWRCS.2014.11",
+    "doi": "10.1109/NWRCS.2014.11",
+    "link": "https://doi.org/10.1109/NWRCS.2014.11"
+  },
+  {
+    "year": 2014,
+    "title": "An online sleep apnea detection method based on recurrence quantification analysis",
+    "authors": "Nguyen, H. D., Wilkins, B. A., Cheng, Q., & Benjamin, B. A.",
+    "venue": "IEEE Journal of Biomedical and Health Informatics , 18(4), 1285-1293. doi:10.1109/JBHI.2013.2292928",
+    "doi": "10.1109/JBHI.2013.2292928",
+    "link": "https://doi.org/10.1109/JBHI.2013.2292928"
+  },
+  {
+    "year": 2014,
+    "title": "Indoor multiple sound source localization using a novel data selection scheme",
+    "authors": "Sun, L., & Cheng, Q.",
+    "venue": "In 2014 48th Annual Conference on Information Sciences and Systems, CISS 2014. doi:10.1109/CISS.2014.6814189",
+    "doi": "10.1109/CISS.2014.6814189",
+    "link": "https://doi.org/10.1109/CISS.2014.6814189"
+  },
+  {
+    "year": 2013,
+    "title": "Bandwidth-efficient dynamic event region detection and reconstruction in wireless sensor networks",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In International Symposium on Wireless Personal Multimedia Communications, WPMC.",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2013,
+    "title": "Joint multitask feature learning and classifier design",
+    "authors": "Gutta, S., & Cheng, Q.",
+    "venue": "In 2013 47th Annual Conference on Information Sciences and Systems, CISS 2013 . doi:10.1109/CISS.2013.6552296",
+    "doi": "10.1109/CISS.2013.6552296",
+    "link": "https://doi.org/10.1109/CISS.2013.6552296"
+  },
+  {
+    "year": 2013,
+    "title": "Real-time microphone array processing for sound source separation and localization",
+    "authors": "Longji, S., & Qi, C.",
+    "venue": "In 2013 47th Annual Conference on Information Sciences and Systems, CISS 2013 . doi:10.1109/CISS.2013.6552257",
+    "doi": "10.1109/CISS.2013.6552257",
+    "link": "https://doi.org/10.1109/CISS.2013.6552257"
+  },
+  {
+    "year": 2012,
+    "title": "Spectrum sensing scheduling in a cost-based framework",
+    "authors": "Kelkar, A., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1051-1055). doi:10.1109/ACSSC.2012.6489179",
+    "doi": "10.1109/ACSSC.2012.6489179",
+    "link": "https://doi.org/10.1109/ACSSC.2012.6489179"
+  },
+  {
+    "year": 2012,
+    "title": "Efficient data routing for fusion in wireless sensor networks",
+    "authors": "Nguyen, M., & Cheng, Q.",
+    "venue": "In 25th International Conference on Computer Applications in Industry and Engineering, CAINE 2012 and 4th International Symposium on Sensor Network and Application, SNA 2012 (pp. 145 -149).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2012,
+    "title": "Classifier Fusion for Gesture Recognition using a Kinect Sensor",
+    "authors": "Gu, Y., Cheng, Q., & Sheng, W.",
+    "venue": "In 25t h International Conference on Computer Applications in Industry and Engineering, CAINE 2012 and 4th International Symposium on Sensor Network and Application, SNA 2012 (pp. 187 -192).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2012,
+    "title": "Data-based distributed classification and its performance analysis",
+    "authors": "Gutta, S., & Cheng, Q.",
+    "venue": "In 15th International Conference on Information Fusion, FUSION 2012 (pp. 1519-1526).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2012,
+    "title": "Fusion of multiple microphone arrays for blind source separation and localization",
+    "authors": "Wu, T., Sun, L., Cheng, Q., & Varshney, P. K.",
+    "venue": "In Proceedings of the IEEE Sensor Array and Multichannel Signal Processing Workshop (pp. 173-176). doi:10.1109/SAM.2012.6250458",
+    "doi": "10.1109/SAM.2012.6250458",
+    "link": "https://doi.org/10.1109/SAM.2012.6250458"
+  },
+  {
+    "year": 2012,
+    "title": "Robot semantic mapping through wearable sensor-based human activity recognition",
+    "authors": "Li, G., Zhu, C., Du, J., Cheng, Q., Sheng, W., & Chen, H.",
+    "venue": "In Proceedings - IEEE International Conference on Robotics and Automation (pp. 5228-5233). doi:10.1109/ICRA.2012.6225305",
+    "doi": "10.1109/ICRA.2012.6225305",
+    "link": "https://doi.org/10.1109/ICRA.2012.6225305"
+  },
+  {
+    "year": 2012,
+    "title": "Feature extraction and pattern identification for anemometer condition diagnosis",
+    "authors": "Sun, L., Chen, C., & Cheng, Q.",
+    "venue": "International Journal of Prognostics and Health Management, 3(1).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2011,
+    "title": "Sequential hybrid map learning through human -robot interaction",
+    "authors": "Li, G., Cheng, Q., & Sheng, W.",
+    "venue": "In Proceedings of the ISCA 24th International Conference on Computer Applications in Industry and Engineering, CAINE 2011 (pp. 141-146).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2011,
+    "title": "Distributed dynamic event region detection in wireless sensor networks",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In 2011 IEEE International Conference on Prognostics and Health Management, PHM 2011 - Conference Proceedings. doi:10.1109/ICPHM.2011.6024354",
+    "doi": "10.1109/ICPHM.2011.6024354",
+    "link": "https://doi.org/10.1109/ICPHM.2011.6024354"
+  },
+  {
+    "year": 2011,
+    "title": "An efficient feature selection method for distributed cyber attack detection and classification",
+    "authors": "Nguyen, H. D., & Cheng, Q.",
+    "venue": "In 2011 45th Annual Conference on Information Sciences and Systems, CISS 2011. doi:10.1109/CISS.2011.5766239",
+    "doi": "10.1109/CISS.2011.5766239",
+    "link": "https://doi.org/10.1109/CISS.2011.5766239"
+  },
+  {
+    "year": 2011,
+    "title": "Identification of a new race of Sporisorium reilianum and characterization of the reaction of sorghum lines to four races of the head smut pathogen",
+    "authors": "Zhang, F., Ping, J., Du, Z., Cheng, Q., & Huang, Y.",
+    "venue": "Journal of Phytopathology, 159(5), 342-346. doi:10.1111/j.1439-0434.2010.01770.x",
+    "doi": "10.1111/j.1439-0434.2010.01770.x",
+    "link": "https://doi.org/10.1111/j.1439-0434.2010.01770.x"
+  },
+  {
+    "year": 2011,
+    "title": "Subspace-based cooperative spectrum sensing for cognitive radios",
+    "authors": "Rao, R., Cheng, Q., & Varshney, P. K.",
+    "venue": "IEEE Sensors Journal, 11(3), 611-620. doi:10.1109/JSEN.2010.2052800",
+    "doi": "10.1109/JSEN.2010.2052800",
+    "link": "https://doi.org/10.1109/JSEN.2010.2052800"
+  },
+  {
+    "year": 2010,
+    "title": "An active distributed app roach for cyber attack detection",
+    "authors": "Nguyen, H. D., Gutta, S., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1540 -1544). doi:10.1109/ACSSC.2010.5757795",
+    "doi": "10.1109/ACSSC.2010.5757795",
+    "link": "https://doi.org/10.1109/ACSSC.2010.5757795"
+  },
+  {
+    "year": 2010,
+    "title": "Human activity recognition via motion and vision data fus ion",
+    "authors": "Zhu, C., Cheng, Q., & Sheng, W.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 332 -336). doi:10.1109/ACSSC.2010.5757529",
+    "doi": "10.1109/ACSSC.2010.5757529",
+    "link": "https://doi.org/10.1109/ACSSC.2010.5757529"
+  },
+  {
+    "year": 2010,
+    "title": "Cooperative sensing with adaptive sensing ranges in cognitive radio ad-hoc networks",
+    "authors": "Shim, J., Cheng, Q., & Sarangan, V.",
+    "venue": "In 2010 Proceedings of the 5th International Conference on Cognitive Radio Oriented Wireless Networks and Communications, CROWNCom 2010. doi:10.4108/ICST.CROWNCOM2010.9175",
+    "doi": "10.4108/ICST.CROWNCOM2010.9175",
+    "link": "https://doi.org/10.4108/ICST.CROWNCOM2010.9175"
+  },
+  {
+    "year": 2010,
+    "title": "One-bit quantizer design for distributed estimation under the minimax criterion",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In IEEE Vehicular Technology Conference. doi:10.1109/VETECS.2010.5494187",
+    "doi": "10.1109/VETECS.2010.5494187",
+    "link": "https://doi.org/10.1109/VETECS.2010.5494187"
+  },
+  {
+    "year": 2010,
+    "title": "Adaptive pricing for efficient spectrum sharing in MIMO systems",
+    "authors": "Kollimarla, B., & Cheng, Q.",
+    "venue": "In IEEE Vehicular Technology Conference. doi:10.1109/VETECS.2010.5494024",
+    "doi": "10.1109/VETECS.2010.5494024",
+    "link": "https://doi.org/10.1109/VETECS.2010.5494024"
+  },
+  {
+    "year": 2010,
+    "title": "Efficient distributed estimators in wireless sensor networks",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In 2010 44th Annual Conference on Information Sciences and Systems, CISS 2010 . doi:10.1109/CISS.2010.5464723",
+    "doi": "10.1109/CISS.2010.5464723",
+    "link": "https://doi.org/10.1109/CISS.2010.5464723"
+  },
+  {
+    "year": 2009,
+    "title": "Distributed estimation under the minimax criterion",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In 2009 4th International Conference on Communications and Networking in China, CHINACOM 2009 (pp. 703 -707). doi:10.1109/CHINACOM.2009.5339808",
+    "doi": "10.1109/CHINACOM.2009.5339808",
+    "link": "https://doi.org/10.1109/CHINACOM.2009.5339808"
+  },
+  {
+    "year": 2009,
+    "title": "Distributed estimation over fading channels using one -bit quantization",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "IEEE Transactions on Wireless Communications, 8(12), 5779-5784. doi:10.1109/TWC.2009.12.090104",
+    "doi": "10.1109/TWC.2009.12.090104",
+    "link": "https://doi.org/10.1109/TWC.2009.12.090104"
+  },
+  {
+    "year": 2009,
+    "title": "Region-of-importance detection based on fusion of audio and video",
+    "authors": "Wu, T., Vu, C., Cheng, Q., & Chandler, D. M.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1673- 1677). doi:10.1109/ACSSC.2009.5469788",
+    "doi": "10.1109/ACSSC.2009.5469788",
+    "link": "https://doi.org/10.1109/ACSSC.2009.5469788"
+  },
+  {
+    "year": 2009,
+    "title": "Joint channel and power allocation based on user satisfaction for cognitive radio",
+    "authors": "Cheng, Q., & Kollimarla, B.",
+    "venue": "In Proceedings - 43rd Annual Conference on Information Sciences and Systems, CISS 2009 (pp. 579 - 584). doi:10.1109/CISS.2009.5054786",
+    "doi": "10.1109/CISS.2009.5054786",
+    "link": "https://doi.org/10.1109/CISS.2009.5054786"
+  },
+  {
+    "year": 2009,
+    "title": "Distributed fault detection with correlated decision fusion",
+    "authors": "Cheng, Q., Varshney, P. K., Michels, J. H., & Belcastro, C. M.",
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems, 45(4), 1448. doi:10.1109/TAES.2009.5310310",
+    "doi": "10.1109/TAES.2009.5310310",
+    "link": "https://doi.org/10.1109/TAES.2009.5310310"
+  },
+  {
+    "year": 2008,
+    "title": "Distributed estimation over fading channels using one -bit quantization",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1968 -1972). doi:10.1109/ACSSC.2008.5074774",
+    "doi": "10.1109/ACSSC.2008.5074774",
+    "link": "https://doi.org/10.1109/ACSSC.2008.5074774"
+  },
+  {
+    "year": 2008,
+    "title": "Subspace-based cooperative spectrum sensing for cognitive radio",
+    "authors": "Rao, R., Cheng, Q., & Ray, P.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 1662 -1666). doi:10.1109/ACSSC.2008.5074707",
+    "doi": "10.1109/ACSSC.2008.5074707",
+    "link": "https://doi.org/10.1109/ACSSC.2008.5074707"
+  },
+  {
+    "year": 2008,
+    "title": "Human intention recognition in smart assisted living systems using a hierarchical hidden markov model",
+    "authors": "Zhu, C., Qi, C., & Sheng, W.",
+    "venue": "In 4th IEEE Conference on Automation Science and Engineering, CASE 2008 (pp. 253-258). doi:10.1109/COASE.2008.4626513",
+    "doi": "10.1109/COASE.2008.4626513",
+    "link": "https://doi.org/10.1109/COASE.2008.4626513"
+  },
+  {
+    "year": 2008,
+    "title": "Distributed detection in the presence of frequency offset and phase shift",
+    "authors": "Wu, T., & Cheng, Q.",
+    "venue": "In CISS 2008, The 42nd Annual Conference on Information Sciences and Systems (pp. 582-587). doi:10.1109/CISS.2008.4558592",
+    "doi": "10.1109/CISS.2008.4558592",
+    "link": "https://doi.org/10.1109/CISS.2008.4558592"
+  },
+  {
+    "year": 2008,
+    "title": "Collaborative event-region and boundary-region detections in wireless sensor networks",
+    "authors": "Wang, T. Y., & Cheng, Q.",
+    "venue": "IEEE Transactions on Signal Processing, 56(6), 2547-2561. doi:10.1109/TSP.2007.916147",
+    "doi": "10.1109/TSP.2007.916147",
+    "link": "https://doi.org/10.1109/TSP.2007.916147"
+  },
+  {
+    "year": 2008,
+    "title": "Fault detection in dynamic systems via decision fusion",
+    "authors": "Cheng, Q., Varshney, P. K., Michels, J. H., & Belcastro, C. M.",
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems, 44(1), 227-242. doi:10.1109/TAES.2008.4517001",
+    "doi": "10.1109/TAES.2008.4517001",
+    "link": "https://doi.org/10.1109/TAES.2008.4517001"
+  },
+  {
+    "year": 2007,
+    "title": "Distributed sequential event-region detection in sensor networks",
+    "authors": "Wang, T. Y., & Cheng, Q.",
+    "venue": "In IEEE Vehicular Technology Conference (pp. 372-376). doi:10.1109/VETECF.2007.90",
+    "doi": "10.1109/VETECF.2007.90",
+    "link": "https://doi.org/10.1109/VETECF.2007.90"
+  },
+  {
+    "year": 2007,
+    "title": "Joint state monitoring and fault detec tion using distributed particle filtering",
+    "authors": "Cheng, Q., & Varshney, P. K.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers (pp. 715-719). doi:10.1109/ACSSC.2007.4487308",
+    "doi": "10.1109/ACSSC.2007.4487308",
+    "link": "https://doi.org/10.1109/ACSSC.2007.4487308"
+  },
+  {
+    "year": 2006,
+    "title": "A novel approach for distributed maneuver detection",
+    "authors": "Cheng, Q., & Varshney, P. K.",
+    "venue": "In IEEE National Radar Conference - Proceedings (pp. 261-267). doi:10.1109/RADAR.2006.1631810",
+    "doi": "10.1109/RADAR.2006.1631810",
+    "link": "https://doi.org/10.1109/RADAR.2006.1631810"
+  },
+  {
+    "year": 2006,
+    "title": "A novel approach for distributed maneuver detection",
+    "authors": "Cheng, Q., & Varshney, P. K.",
+    "venue": "In CIE International Conference of Radar Proceedings Vol. 2006 (pp. 261-267).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2006,
+    "title": "Detection performance limits for distributed sensor networks in the presence of nonideal channels",
+    "authors": "Cheng, Q., Chen, B., & Varshney, P. K.",
+    "venue": "IEEE Transactions on Wireless Communications, 5(11), 3034-3038. doi:10.1109/TWC.2006.05147",
+    "doi": "10.1109/TWC.2006.05147",
+    "link": "https://doi.org/10.1109/TWC.2006.05147"
+  },
+  {
+    "year": 2006,
+    "title": "Distributed detection in a large wireless sensor network",
+    "authors": "Niu, R., Varshney, P. K., & Cheng, Q.",
+    "venue": "Information Fusion, 7(4 SPEC. ISS.), 380-394. doi:10.1016/j.inffus.2005.06.003",
+    "doi": "10.1016/j.inffus.2005.06.003",
+    "link": "https://doi.org/10.1016/j.inffus.2005.06.003"
+  },
+  {
+    "year": 2005,
+    "title": "Distributed detection with data fusion for aircraft flight control computer malfunction monitoring",
+    "authors": "Belcastro, C. M., Chowdhury, F., Cheng, Q., Michels, J. H., & Varshney, P. K.",
+    "venue": "In Collection of Technical Papers - AIAA Guidance, Navigation, and Control Conference Vol. 6 (pp. 4807-4820).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2005,
+    "title": "Bandwidth management in distributed sequential detection",
+    "authors": "Cheng, Q., Varshney, P. K., Mehrotra, K. G., & Mohan, C. K.",
+    "venue": "IEEE Transactions on Information Theory, 51(8), 2954-2961. doi:10.1109/TIT.2005.851716",
+    "doi": "10.1109/TIT.2005.851716",
+    "link": "https://doi.org/10.1109/TIT.2005.851716"
+  },
+  {
+    "year": 2004,
+    "title": "Detection performance limits of ch annel impaired distributed sensor networks",
+    "authors": "Cheng, Q., Chen, B., & Varshney, P. K.",
+    "venue": "In Conference Record - Asilomar Conference on Signals, Systems and Computers Vol. 2 (pp. 2213-2217).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2002,
+    "title": "Joint blind timing synchronization and channel estimation for OFDM using receiver diversity",
+    "authors": "Cheng, Q., Wang, H., & Chen, B.",
+    "venue": "In Conference Record of the Asilomar Conference on Signals, Systems and Computers Vol. 1 (pp. 649-653).",
+    "doi": "",
+    "link": ""
+  },
+  {
+    "year": 2002,
+    "title": "Optimal bandwidth assignment for distributed sequential detection",
+    "authors": "Cheng, Q., Pramod, V., Mehrotra, K. G., & Mohan, C. K.",
+    "venue": "In Proceedings of the 5th International Conference on Information Fusion, FUSION 2002 Vol. 2 (pp. 1550-1556). doi:10.1109/ICIF.2002.1021001",
+    "doi": "10.1109/ICIF.2002.1021001",
+    "link": "https://doi.org/10.1109/ICIF.2002.1021001"
+  },
+  {
+    "year": 2002,
+    "title": "Optimal bandwidth assignment for distributed sequential detection",
+    "authors": "Cheng, Q., Varshney, P. K., Mehrotra, K. G., & Mohan, C. K.",
+    "venue": "In Proceedings of the 5th International Conference on Information Fusion, FUSION 2002 Vol. 1 (pp. 49-55). doi:10.1109/ICIF.2002.1021130",
+    "doi": "10.1109/ICIF.2002.1021130",
+    "link": "https://doi.org/10.1109/ICIF.2002.1021130"
+  }
+]

@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import people from "../data/people.json";
+
+const news = [
+  { date: "2026-02-12", text: "We launched our lab website!" },
+  { date: "2026-02-11", text: "New preprint submitted." }
+];
+---
+
+<BaseLayout title={`News | ${people.labName}`}>
+  <h1>News</h1>
+
+  {news.map((n) => (
+    <div class="card">
+      <div class="muted">{n.date}</div>
+      <div>{n.text}</div>
+    </div>
+  ))}
+</BaseLayout>

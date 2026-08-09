@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import people from "../data/people.json";
+---
+
+<BaseLayout title={`Contact | ${people.labName}`}>
+  <h1>Contact</h1>
+
+  <div class="card">
+    <p>
+      <strong>{people.pi.name}</strong><br />
+      {people.pi.title}<br />
+      {people.pi.department}<br />
+      {people.pi.university}
+    </p>
+
+    <p><strong>Email:</strong> <a href={`mailto:${people.pi.email}`}>{people.pi.email}</a></p>
+    <p><strong>Phone:</strong> {people.pi.phone}</p>
+    <p><strong>Office:</strong> {people.pi.office} (Engineering South)</p>
+
+    <p>
+      <strong>Mailing Address:</strong><br />
+      Engineering South, Room 243 (ES 243)<br />
+      Stillwater, OK 74074<br />
+      United States
+    </p>
+
+    <p>
+      <strong>Links:</strong>
+      {people.pi.website ? (
+        <>
+          {" "}
+          <a href={people.pi.website} target="_blank">Website</a>
+        </>
+      ) : null}
+      {people.pi.cv ? (
+        <>
+          {" • "}
+          <a href={people.pi.cv} target="_blank">CV</a>
+        </>
+      ) : null}
+      {" • "}
+      <a href="https://github.com/mahmudulosu" target="_blank">GitHub</a>
+    </p>
+  </div>
+</BaseLayout>

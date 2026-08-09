@@ -1,0 +1,49 @@
+---
+import people from "../data/people.json";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>People | {people.labName}</title>
+  </head>
+
+  <body style="font-family:system-ui; margin:0">
+    <header style="padding:20px; border-bottom:1px solid #eee">
+      <strong>{people.labName}</strong>
+      <nav style="margin-top:8px">
+        <a href="/" style="margin-right:12px">Home</a>
+        <a href="/people" style="margin-right:12px">People</a>
+      </nav>
+    </header>
+
+    <main style="padding:20px; max-width:900px; margin:0 auto">
+      <h1>People</h1>
+
+      <h2>Principal Investigator</h2>
+      <div style="padding:16px; border:1px solid #eee; border-radius:12px; margin:12px 0">
+        <h3 style="margin:0">{people.pi.name}</h3>
+        <div style="color:#666; font-size:14px">
+          {people.pi.title} • {people.pi.email}
+        </div>
+        <ul>
+          {people.pi.interests.map((i) => <li>{i}</li>)}
+        </ul>
+      </div>
+
+      <h2>Students</h2>
+      {people.students.map((s) => (
+        <div style="padding:16px; border:1px solid #eee; border-radius:12px; margin:12px 0">
+          <h3 style="margin:0">{s.name}</h3>
+          <div style="color:#666; font-size:14px">
+            {s.role} • {s.email}
+          </div>
+          <ul>
+            {s.interests.map((i) => <li>{i}</li>)}
+          </ul>
+        </div>
+      ))}
+    </main>
+  </body>
+</html>

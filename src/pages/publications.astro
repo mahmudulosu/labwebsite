@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import people from "../data/people.json";
+import publications from "../data/publications.json";
+---
+
+<BaseLayout title={`Publications | ${people.labName}`}>
+  <h1>Publications</h1>
+
+  {publications.map((p) => (
+    <div class="card">
+      <strong>{p.title}</strong>
+
+      <div class="muted">
+        {p.authors}
+      </div>
+
+      <div class="muted">
+        {p.venue}
+      </div>
+
+      {p.year && (
+        <div class="muted">
+          {p.year}
+        </div>
+      )}
+
+      {p.link && (
+        <a
+          href={p.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Paper
+        </a>
+      )}
+    </div>
+  ))}
+</BaseLayout>

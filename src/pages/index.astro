@@ -1,11 +1,26 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import people from "../data/people.json";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout title={people.labName}>
+  <h1>{people.labName}</h1>
+
+  <p class="muted" style="line-height:1.6">
+    Welcome to our lab website. We share our research, publications, and daily updates here.
+  </p>
+
+  <div class="grid" style="margin-top:16px;">
+    <a class="btn" href="/people">👩‍🔬 People</a>
+    <a class="btn" href="/research">🔬 Research</a>
+    <a class="btn" href="/publications">📄 Publications</a>
+    <a class="btn" href="/news">🗞️ News</a>
+    <a class="btn" href="/contact">✉️ Contact</a>
+  </div>
+
+  <h2 style="margin-top:28px;">Principal Investigator</h2>
+  <div class="card">
+    <strong>{people.pi.name}</strong>
+    <div class="muted">{people.pi.title} • {people.pi.email}</div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,122 @@
+{
+  "labName": "OSU Lab Website",
+  "logo": "/images/osu-logo.png",
+
+  "pi": {
+    "name": "Dr. Qi Cheng",
+    "title": "Associate Professor",
+    "department": "School of Electrical and Computer Engineering",
+    "university": "Oklahoma State University",
+    "office": "243 ES",
+    "phone": "405.744.3602",
+    "email": "qi.cheng@okstate.edu",
+    "photo": "/images/qi-cheng.jpg",
+    "website": "https://ceat.okstate.edu/ece/faculty/qi-cheng.html",
+    "cv": "/files/cv-qi-cheng.pdf",
+
+    "academicBackground": [
+      {
+        "degree": "Ph.D., Electrical Engineering",
+        "institution": "Syracuse University, New York",
+        "year": "2006"
+      },
+      {
+        "degree": "M.S., Electrical Engineering",
+        "institution": "Syracuse University, New York",
+        "year": "2003"
+      },
+      {
+        "degree": "B.E., Electrical Engineering",
+        "institution": "Shanghai JiaoTong University, China",
+        "year": "1999"
+      }
+    ],
+
+    "areasOfInterest": [
+      "Machine learning and artificial intelligence",
+      "Distributed detection/estimation",
+      "Smart and secure cyber-physical systems",
+      "Data fusion",
+      "Biomedical data analytics",
+      "Dynamic modeling"
+    ]
+  },
+
+  "students": [
+    {
+      "name": "Md Mahmudul Hasan",
+      "title": "Graduate Research and Teaching Assistant",
+      "department": "Electrical and Computer Engineering",
+      "program": "PhD in Electrical and Computer Engineering",
+      "university": "Oklahoma State University",
+      "office": "ATRC233, Oklahoma State University",
+      "phone": "4052692869",
+      "email": "mahmudul.hasan@okstate.edu",
+      "photo": "/images/mahmudul.jpg",
+      "website": "https://github.com/mahmudulosu",
+      "cv": "/files/cv_mahmudul.pdf",
+
+      "researchSummary": "Multimodal brain data analysis using EEG and structural MRI, combining feature engineering, deep learning, and fusion to build robust classification models.",
+
+      "researchTopics": [
+        "EEG time-frequency feature extraction (DWT, WPD, STFT, FFT)",
+        "EEG scalogram-based deep learning (CWT scalograms + CNN/ViT backbones)",
+        "Structural MRI analysis (ROI/atlas features, morphometrics, PCA)",
+        "3D CNNs for MRI with multi-view/multi-crop aggregation",
+        "EEG–MRI multimodal fusion (feature-level fusion, gated fusion)",
+        "Leakage-safe subject-wise evaluation and benchmarking"
+      ]
+    },
+
+    {
+      "name": "Koushik Roy",
+      "title": "Graduate Research and Teaching Assistant",
+      "department": "Electrical and Computer Engineering",
+      "program": "PhD in Electrical and Computer Engineering",
+      "university": "Oklahoma State University",
+      "office": "ATRC233, Oklahoma State University",
+      "phone": "4052693456",
+      "email": "koushik.roy@okstate.edu",
+      "photo": "/images/koushik.jpg",
+      "website": "https://koushikroy.github.io",
+      "cv": "/files/CV_Koushik_Roy.pdf",
+
+      "researchSummary": "Research on improving EEG-based emotion recognition using multi-source domain adaptation, focusing on reducing inter-subject variability through statistical alignment, adaptive source selection, and minimizing negative transfer; evaluated on multiple EEG datasets including LEMON.",
+
+      "researchTopics": [
+        "EEG-based emotion recognition",
+        "Multi-source domain adaptation for EEG pattern recognition",
+        "Inter-subject variability handling using statistical alignment criteria",
+        "Adaptive source-domain selection to reduce negative transfer",
+        "Cross-subject generalization on large-scale EEG datasets (e.g., LEMON)",
+        "EEG preprocessing and comparative analysis across domains/models (Eye State classification)"
+      ]
+    },
+
+    {
+      "name": "Thomas Kidd",
+      "title": "Graduate Research Assistant",
+      "department": "Electrical and Computer Engineering",
+      "program": "M.S. in Electrical Engineering",
+      "university": "Oklahoma State University",
+      "office": "Stillwater, Oklahoma",
+      "phone": "8327200893",
+      "email": "thomas.kidd@okstate.edu",
+      "photo": "/images/thomas_kidd.png",
+      "website": "",
+      "cv": "/files/thomas_kidd.pdf",
+
+      "researchSummary": "Research focused on physics-based machine learning, deep learning, and intelligent engineering systems. His current work includes developing and optimizing convolutional neural networks for neutron/gamma pileup event classification and investigating interpretable representations learned by neural networks.",
+
+      "researchTopics": [
+        "Physics-based machine learning",
+        "Neutron/gamma pileup event classification",
+        "Convolutional neural networks and ResNet architectures",
+        "Interpretable machine learning and internal network representations",
+        "RISC-V and open-source computer hardware",
+        "Computer vision and image segmentation",
+        "Embedded systems and hardware-software integration"
+      ]
+    }
+  ]
+}
