@@ -2,7 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import people from "../data/people.json";
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const url = (path = "") => `${base}/${path.replace(/^\//, "")}`;
 ---
 
 <BaseLayout title={people.labName}>
@@ -13,11 +15,11 @@ const base = import.meta.env.BASE_URL;
   </p>
 
   <div class="grid" style="margin-top:16px;">
-    <a class="btn" href={`${base}/people/`}>👩‍🔬 People</a>
-    <a class="btn" href={`${base}/research/`}>🔬 Research</a>
-    <a class="btn" href={`${base}/publications/`}>📄 Publications</a>
-    <a class="btn" href={`${base}/news/`}>🗞️ News</a>
-    <a class="btn" href={`${base}/contact/`}>✉️ Contact</a>
+    <a class="btn" href={url("people/")}>👩‍🔬 People</a>
+    <a class="btn" href={url("research/")}>🔬 Research</a>
+    <a class="btn" href={url("publications/")}>📄 Publications</a>
+    <a class="btn" href={url("news/")}>🗞️ News</a>
+    <a class="btn" href={url("contact/")}>✉️ Contact</a>
   </div>
 
   <h2 style="margin-top:28px;">Principal Investigator</h2>
