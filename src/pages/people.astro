@@ -1,7 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import people from "../data/people.json";
-const fallbackImg = "/images/placeholder.jpg";
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, "");
+
+const asset = (path) => {
+  if (!path) return "";
+  const cleanPath = path.replace(/^\/+/, "");
+  return `${base}/${cleanPath}`;
+};
+
+const fallbackImg = asset("/images/placeholder.jpg");
 ---
 
 <BaseLayout title={`People | ${people.labName}`}>
@@ -12,8 +21,16 @@ const fallbackImg = "/images/placeholder.jpg";
       gap: 12px;
       margin-bottom: 18px;
     }
-    .hero img { height: 34px; width: auto; }
-    .subtle { opacity: 0.8; }
+
+    .hero img {
+      height: 34px;
+      width: auto;
+    }
+
+    .subtle {
+      opacity: 0.8;
+    }
+
     .personCard {
       display: grid;
       grid-template-columns: 120px 1fr;
@@ -21,151 +38,287 @@ const fallbackImg = "/images/placeholder.jpg";
       align-items: start;
       padding: 16px;
       border-radius: 18px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: rgba(255,255,255,0.75);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      background: rgba(255, 255, 255, 0.75);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     }
+
     .personImg {
       width: 120px;
       height: 120px;
       border-radius: 18px;
       object-fit: cover;
       background: #f3f3f3;
-      border: 1px solid rgba(0,0,0,0.08);
+      border: 1px solid rgba(0, 0, 0, 0.08);
     }
+
     .btnRow {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
       margin-top: 10px;
     }
+
     .pill {
       display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 10px 12px;
       border-radius: 14px;
-      border: 1px solid rgba(0,0,0,0.10);
-      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      background: rgba(255, 255, 255, 0.7);
       text-decoration: none;
       color: inherit;
     }
-    .pill:hover { background: rgba(255,255,255,0.95); }
+
+    .pill:hover {
+      background: rgba(255, 255, 255, 0.95);
+    }
+
     .grid2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
       margin-top: 16px;
     }
+
     .cardBox {
       padding: 16px;
       border-radius: 18px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: rgba(255,255,255,0.75);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      background: rgba(255, 255, 255, 0.75);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     }
+
     .peopleGrid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 14px;
       margin-top: 12px;
     }
+
     @media (max-width: 900px) {
-      .grid2 { grid-template-columns: 1fr; }
-      .personCard { grid-template-columns: 100px 1fr; }
-      .personImg { width: 100px; height: 100px; }
+      .grid2 {
+        grid-template-columns: 1fr;
+      }
+
+      .personCard {
+        grid-template-columns: 100px 1fr;
+      }
+
+      .personImg {
+        width: 100px;
+        height: 100px;
+      }
     }
   </style>
 
   <div class="hero">
-    <img src={people.logo} alt="Logo" />
+    <img src={asset(people.logo)} alt="Logo" />
+
     <div>
       <h1 style="margin:0">People</h1>
-      <div class="subtle">Meet our team • Website/CV links included</div>
+      <div class="subtle">
+        Meet our team • Website/CV links included
+      </div>
     </div>
   </div>
 
-  <!-- PI -->
+  <!-- Principal Investigator -->
   <h2>Principal Investigator</h2>
 
   <div class="personCard">
-    <img class="personImg" src={people.pi.photo || fallbackImg} alt={people.pi.name} />
+    <img
+      class="personImg"
+      src={people.pi.photo ? asset(people.pi.photo) : fallbackImg}
+      alt={people.pi.name}
+    />
+
     <div>
-      <h2 style="margin:0">{people.pi.name}</h2>
+      <h2 style="margin:0">
+        {people.pi.name}
+      </h2>
+
       <div class="subtle" style="margin-top:6px">
-        <strong>{people.pi.title}</strong><br />
-        {people.pi.department}<br />
+        <strong>{people.pi.title}</strong>
+        <br />
+
+        {people.pi.department}
+        <br />
+
         {people.pi.university}
       </div>
 
       <div class="cardBox" style="margin-top:14px">
-        <h3 style="margin:0 0 10px">Contact</h3>
-        <div><strong>Office:</strong> {people.pi.office}</div>
-        <div><strong>Phone:</strong> {people.pi.phone}</div>
+        <h3 style="margin:0 0 10px">
+          Contact
+        </h3>
+
+        <div>
+          <strong>Office:</strong> {people.pi.office}
+        </div>
+
+        <div>
+          <strong>Phone:</strong> {people.pi.phone}
+        </div>
+
         <div>
           <strong>Email:</strong>
-          <a href={`mailto:${people.pi.email}`}>{people.pi.email}</a>
+          {" "}
+          <a href={`mailto:${people.pi.email}`}>
+            {people.pi.email}
+          </a>
         </div>
 
         <div class="btnRow">
-          {people.pi.website && <a class="pill" href={people.pi.website} target="_blank">🌐 Website</a>}
-          {people.pi.cv && <a class="pill" href={people.pi.cv} target="_blank">📄 CV</a>}
+          {people.pi.website && (
+            <a
+              class="pill"
+              href={people.pi.website}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🌐 Website
+            </a>
+          )}
+
+          {people.pi.cv && (
+            <a
+              class="pill"
+              href={asset(people.pi.cv)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📄 CV
+            </a>
+          )}
         </div>
       </div>
     </div>
   </div>
 
+  <!-- PI Details -->
   <div class="grid2">
     <div class="cardBox">
-      <h2 style="margin-top:0">Academic Background</h2>
+      <h2 style="margin-top:0">
+        Academic Background
+      </h2>
+
       {people.pi.academicBackground?.map((ed) => (
         <div style="margin-bottom:14px;">
-          <div><strong>{ed.degree}</strong></div>
-          <div class="subtle">{ed.institution}, {ed.year}</div>
+          <div>
+            <strong>{ed.degree}</strong>
+          </div>
+
+          <div class="subtle">
+            {ed.institution}, {ed.year}
+          </div>
         </div>
       ))}
     </div>
 
     <div class="cardBox">
-      <h2 style="margin-top:0">Areas of Interest</h2>
+      <h2 style="margin-top:0">
+        Areas of Interest
+      </h2>
+
       <ul>
-        {people.pi.areasOfInterest?.map((a) => <li>{a}</li>)}
+        {people.pi.areasOfInterest?.map((a) => (
+          <li>{a}</li>
+        ))}
       </ul>
     </div>
   </div>
 
   <!-- Students -->
-  <h2 style="margin-top:28px;">Students</h2>
+  <h2 style="margin-top:28px;">
+    Students
+  </h2>
 
   <div class="peopleGrid">
     {people.students.map((s) => (
       <div class="personCard">
-        <img class="personImg" src={s.photo || fallbackImg} alt={s.name} />
+        <img
+          class="personImg"
+          src={s.photo ? asset(s.photo) : fallbackImg}
+          alt={s.name}
+        />
+
         <div>
-          <h3 style="margin:0">{s.name}</h3>
+          <h3 style="margin:0">
+            {s.name}
+          </h3>
 
-          {s.title && <div class="subtle">{s.title}</div>}
-          {s.department && <div class="subtle">{s.department}</div>}
-          {s.program && <div class="subtle">{s.program}</div>}
-          {s.office && <div class="subtle">{s.office}</div>}
+          {s.title && (
+            <div class="subtle">
+              {s.title}
+            </div>
+          )}
 
-          <div class="subtle" style="margin-top:6px">
-            <a href={`mailto:${s.email}`}>{s.email}</a>
+          {s.department && (
+            <div class="subtle">
+              {s.department}
+            </div>
+          )}
+
+          {s.program && (
+            <div class="subtle">
+              {s.program}
+            </div>
+          )}
+
+          {s.office && (
+            <div class="subtle">
+              {s.office}
+            </div>
+          )}
+
+          <div
+            class="subtle"
+            style="margin-top:6px"
+          >
+            <a href={`mailto:${s.email}`}>
+              {s.email}
+            </a>
+
             {s.phone ? ` • ${s.phone}` : ""}
           </div>
 
           <div class="btnRow">
-            {s.website && <a class="pill" href={s.website} target="_blank">🌐 Website</a>}
-            {s.cv && <a class="pill" href={s.cv} target="_blank">📄 CV</a>}
+            {s.website && (
+              <a
+                class="pill"
+                href={s.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🌐 Website
+              </a>
+            )}
+
+            {s.cv && (
+              <a
+                class="pill"
+                href={asset(s.cv)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📄 CV
+              </a>
+            )}
           </div>
 
           {s.researchSummary && (
-            <p style="margin-top:10px">{s.researchSummary}</p>
+            <p style="margin-top:10px">
+              {s.researchSummary}
+            </p>
           )}
 
           {s.researchTopics?.length ? (
             <ul style="margin-top:10px">
-              {s.researchTopics.map((t) => <li>{t}</li>)}
+              {s.researchTopics.map((t) => (
+                <li>{t}</li>
+              ))}
             </ul>
           ) : null}
         </div>
