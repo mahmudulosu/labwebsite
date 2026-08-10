@@ -11,12 +11,44 @@ const link = (path = "") => {
 ---
 
 <BaseLayout title={people.labName}>
+  <style>
+    .hero-image {
+      margin: 22px 0;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid #eee;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 800px) {
+      .hero-image img {
+        height: 240px;
+      }
+    }
+  </style>
+
   <h1>{people.labName}</h1>
 
   <p class="muted" style="line-height:1.6">
     Welcome to our lab website. We share our research, publications, and daily updates here.
   </p>
 
+  <!-- ECE Building Image -->
+  <div class="hero-image">
+    <img
+      src={`${base}/images/ece.png`}
+      alt="Electrical and Computer Engineering Building"
+    />
+  </div>
+
+  <!-- Main Navigation Buttons -->
   <div class="grid" style="margin-top:16px;">
     <a class="btn" href={link("people/")}>👩‍🔬 People</a>
     <a class="btn" href={link("research/")}>🔬 Research</a>
@@ -25,10 +57,14 @@ const link = (path = "") => {
     <a class="btn" href={link("contact/")}>✉️ Contact</a>
   </div>
 
-  <h2 style="margin-top:28px;">Principal Investigator</h2>
+  <!-- Principal Investigator -->
+  <h2 style="margin-top:28px;">
+    Principal Investigator
+  </h2>
 
   <div class="card">
     <strong>{people.pi.name}</strong>
+
     <div class="muted">
       {people.pi.title} • {people.pi.email}
     </div>
