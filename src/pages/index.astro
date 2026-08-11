@@ -40,7 +40,6 @@ const link = (path = "") => {
     Welcome to our lab website. We share our research, publications, and daily updates here.
   </p>
 
-  <!-- ECE Building Image -->
   <div class="hero-image">
     <img
       src={`${base}/images/ece.png`}
@@ -48,7 +47,6 @@ const link = (path = "") => {
     />
   </div>
 
-  <!-- Main Navigation Buttons -->
   <div class="grid" style="margin-top:16px;">
     <a class="btn" href={link("people/")}>👩‍🔬 People</a>
     <a class="btn" href={link("research/")}>🔬 Research</a>
@@ -57,14 +55,10 @@ const link = (path = "") => {
     <a class="btn" href={link("contact/")}>✉️ Contact</a>
   </div>
 
-  <!-- Principal Investigator -->
-  <h2 style="margin-top:28px;">
-    Principal Investigator
-  </h2>
+  <h2 style="margin-top:28px;">Principal Investigator</h2>
 
   <div class="card">
     <strong>{people.pi.name}</strong>
-
     <div class="muted">
       {people.pi.title} • {people.pi.email}
     </div>
